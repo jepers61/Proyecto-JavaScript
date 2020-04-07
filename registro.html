@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -35,17 +36,17 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="nombres">Nombre Completo</label> <span class="text-danger" id="errornombres"></span>
-            <input type="text" class="form-control" id="nombres" placeholder="Nombres">
+            <input type="text" class="form-control" id="nombres" placeholder="Nombres" >
           </div>
           <div class="form-group col-md-6">
             <label for="email">Email</label> <span class="text-danger" id="errorEmail"></span>
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="email" class="form-control" id="mail" placeholder="Email">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="contrasena">Contraseña</label> <span class="text-danger" id="errorContrasena"></span>
-            <input type="password" class="form-control" id="contrasena" placeholder="Contraseña">
+            <input type="password" class="form-control" id="contrasena" minlength="7" placeholder="Contraseña">
           </div>
           <div class="form-group col-md-6">
             <label for="confirmacion">Contraseña (Confirmación)</label> <span class="text-danger" id="errorConfirmacion"></span>
@@ -72,6 +73,7 @@
           </div>
         </div>
         <button type="submit" class="btn gradient-bg" onclick="return validar(this.form)">Continuar</button>
+        <!--onclick="return validar(this.form)"-->
       </form>
 
     </div>
@@ -84,10 +86,13 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
       crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"></script>
+    
     <script src="js/registro.js"></script>
+
   </body>
   </html>

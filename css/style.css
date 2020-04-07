@@ -11,14 +11,14 @@
 
 body {
     color: #2f2f2f;
-    font-family: 'Calibri';
+    font-family: 'Roboto';
     background-image: url('../images/header-bg.jpg');
     background-size: cover;
 }
 
 .lead, .h1 {
     color: white;
-    font-family: 'Calibri';
+    font-family: 'Roboto';
 }
 
 
@@ -28,11 +28,48 @@ img {
 
 label {
     color: white;
-    font-family: 'Calibri';
+    font-family: 'Roboto';
 }
 
+/*#proximos{
+    background-color: burlywood;
+    padding: 1em;
+}*/
+.col{
+    background-color: cornsilk;
+    border: 2px solid #444444;
+    margin: 45px;
+    border-radius: 15px;
+}
+.colp{
+    background-color: cornsilk;
+    border: 2px solid #444444;
+    width: 650;
+    height: 150;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.cole{
+    background-color: cornsilk;
+    border: 2px solid #444444;
+    width: 650;
+    height: 150;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.enlace{
+    text-decoration: underline;
+    font-size: xx-large;
 
-
+}
+#pr0 #pa0 #ele1{
+    margin: auto;
+    margin: 50px;
+}
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -42,7 +79,7 @@ a {
 
 .p-2 {
     color: white;
-    font-family: 'Calibri';
+    font-family: 'Roboto';
     font-size: 150%;
 }
 
